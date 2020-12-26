@@ -1,0 +1,27 @@
+*{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: antiquewhite;
+   color: rgb(78, 37, 7);
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+table, td {
+    border-style: solid;
+}
+
+table {
+    border-color: saddlebrown;
+}
+
+td {
+    border-color: rgba(255, 191, 107, 0.4);
+    border-width: 0.15rem;
+}
+
+th {
+    background-color: sandybrown;
+    color: antiquewhite;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <title>CSS Selectors: Cheat Sheet</title>
+    <link href="index.css" type="text/css" rel="stylesheet">
+  </head> 
+  <body>
+    <header>
+        <h1>CSS Selectors: Cheat Sheet</h1>
+    </header>
+    <table>
+        <thead>
+            <tr>
+                <th>Selector</th>
+                <th>Syntax</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Universal Selector</td>
+                <td>* {declaration;}</td>
+                <td>Applies to all elements.</td>
+            </tr>
+            <tr>
+                <td>Type Selector</td>
+                <td>h1, h2, h3 {decl;}</td>
+                <td>Targets elements by type (h1-h3).</td>
+            </tr>
+            <tr>
+                <td>Class Selector</td>
+                <td>p.note {decl;}</td>
+                <td>Targets elements by class (p with a "note" class).</td>
+            </tr>
+            <tr>
+                <td>ID Selector</td>
+                <td>#intro {decl;}</td>
+                <td>Targets elements by ID (#intro).</td>
+            </tr>
+            <tr>
+                <td>Child Selector</td>
+                <td>li>a {decl;}</td>
+                <td>Targets elements that are direct children (all a children of li).</td>
+            </tr>
+            <tr>
+                <td>Descendant Selector</td>
+                <td>p a {decl;}</td>
+                <td>Targets all decscendant elements (all a inside of p).</td>
+            </tr>
+            <tr>
+                <td>Adjacent Sibling Selector</td>
+                <td>h1+p {decl;}</td>
+                <td>Targets the first element that is the next sibling (1st p after any h1).</td>
+            </tr>
+            <tr>
+                <td>General Sibling Selector</td>
+                <td>h1~p {decl;}</td>
+                <td>Targets all elements that are siblings (all p elemements after any h1).</td>
+            </tr>
+        </tbody>
+    </table>
+  </body> 
+</html> 
